@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID-19 Live Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="nepaliFlag">
+                <img src="Images/NepaliFlag.gif" alt="National Flag Of Nepal" />
+            </div>
+            <h2>COVID-19 Live Tracker For Nepal</h2>
+        </header>
+        <a href="index2.html"> <button id="log">Check Details</button></a>
+        <p id="updatedTime"></p>
+        <div class="mainContent">
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="totalCases" class="countNumber">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">Total Case</p>
+                </div>
+            </div>
+
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="totalDeaths" class="countNumber red">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">Total Deaths</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="totalRecovered" class="countNumber green">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">Total Recovered</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondaryContent">
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newCases" class="countNumber red">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Cases</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newDeaths" class="countNumber red">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Deaths</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newRecovered" class="countNumber green">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Recovered</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newCasesPercentage" class="countNumber red">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Case Percentage</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newDeathsPercentage" class="countNumber red">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Deaths Percentage</p>
+                </div>
+            </div>
+            <div class="caseContainer">
+                <div class="headings">
+                    <p id="newRecoveredPercentage" class="countNumber green">0</p>
+                </div>
+                <div class="information">
+                    <p class="strong">New Recovered Percentage</p>
+                </div>
+            </div>
+        </div>
+        <div class="aboutMySelf">
+            <p><b>Developed By:</b><a href="https://www.facebook.com/parameswar.kceey"><span>PRAMESH</span></a></p>
+        </div>
+
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

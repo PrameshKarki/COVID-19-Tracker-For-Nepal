@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#nepaliFlag {
+  max-width: 50px;
+  height: 96px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+  padding: 22px;
+  position: relative;
+}
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.secondaryContent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+/* They are flex items */
+.caseContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  margin: 4px 5px;
+  width: 190px;
+  height: 125px;
+}
+.countNumber {
+  font-size: 40px;
+  text-align: center;
+}
+div.information p.strong {
+  text-align: center;
+  margin-top: 2px;
+  font-size: 18px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.aboutMySelf {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.aboutMySelf a {
+  text-decoration: none;
+  color: black;
+}
+#updatedTime {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+span {
+  font-family: "Metal Mania", cursive;
+}
+#log {
+  position: absolute;
+  left: 130px;
+  font-size: 18px;
+  color: white;
+  background-color: #008cba;
+  padding: 6px;
+  margin: -12px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+#log:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 1030px) {
+  header h2 {
+    font-size: 40px;
+  }
+  .countNumber {
+    font-size: 30px;
+  }
+  div.information p.strong {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 845px) {
+  header h2 {
+    font-size: 30px;
+  }
+  .countNumber {
+    font-size: 30px;
+  }
+  div.information p.strong {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #updatedTime {
+    text-align: right;
+
+  }
+}
+
+@media screen and (max-width: 658px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .mainContent {
+    margin-top: 10px;
+  }
+  #nepaliFlag {
+    max-width: 70px;
+  }
+}
+@media screen and (max-width: 605px) {
+  header h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header h2 {
+    font-size: 18px;
+  }
+  #log {
+    left: 22px;
+    margin-top: -5px;
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 424px) {
+  #updatedTime {
+    font-size:12px;
+  }
+}
